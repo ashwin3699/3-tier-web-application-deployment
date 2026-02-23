@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: simplybyte-frontend
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: simplybyte-frontend
   ports:
